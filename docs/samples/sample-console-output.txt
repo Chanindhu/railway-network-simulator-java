@@ -1,0 +1,118 @@
+Simulation running. Press Enter to exit.
+=====================================
+Railway Network Status Report - Day 0
+=====================================
+
+Daily Events:
+-------------
+(No events)
+
+Town Status:
+------------
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+
+=====================================
+Railway Network Status Report - Day 1
+=====================================
+
+Daily Events:
+-------------
+town-founding Broad_Larcot 800
+town-founding Hook_Gilmoor 204
+town-founding Royal_Whithurst 731
+town-founding Creech_Sopcastle 477
+
+Town Status:
+------------
+Broad_Larcot p:800 rs:0 rd:0 gs:0 gt:0
+Hook_Gilmoor p:204 rs:0 rd:0 gs:0 gt:0
+Royal_Whithurst p:731 rs:0 rd:0 gs:0 gt:0
+Creech_Sopcastle p:477 rs:0 rd:0 gs:0 gt:0
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+
+=====================================
+Railway Network Status Report - Day 2
+=====================================
+
+Daily Events:
+-------------
+(No events)
+
+Town Status:
+------------
+Broad_Larcot p:800 rs:0 rd:0 gs:800 gt:0
+Hook_Gilmoor p:204 rs:0 rd:0 gs:204 gt:0
+Royal_Whithurst p:731 rs:0 rd:0 gs:731 gt:0
+Creech_Sopcastle p:477 rs:0 rd:0 gs:477 gt:0
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+
+=====================================
+Railway Network Status Report - Day 3
+=====================================
+
+Daily Events:
+-------------
+town-population Broad_Larcot 946
+railway-construction Royal_Whithurst Creech_Sopcastle
+
+Town Status:
+------------
+Broad_Larcot p:946 rs:0 rd:0 gs:1600 gt:0
+Hook_Gilmoor p:204 rs:0 rd:0 gs:408 gt:0
+Royal_Whithurst p:731 rs:0 rd:0 gs:1462 gt:0
+Creech_Sopcastle p:477 rs:0 rd:0 gs:954 gt:0
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+
+=====================================
+Railway Network Status Report - Day 4
+=====================================
+
+Daily Events:
+-------------
+railway-construction Hook_Gilmoor Royal_Whithurst
+railway-construction Royal_Whithurst Broad_Larcot
+railway-construction Broad_Larcot Hook_Gilmoor
+railway-construction Creech_Sopcastle Broad_Larcot
+
+Town Status:
+------------
+Broad_Larcot p:946 rs:0 rd:0 gs:2546 gt:0
+Hook_Gilmoor p:204 rs:0 rd:0 gs:612 gt:0
+Royal_Whithurst p:731 rs:0 rd:0 gs:2193 gt:0
+Creech_Sopcastle p:477 rs:0 rd:0 gs:1431 gt:0
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+
+=====================================
+Railway Network Status Report - Day 5
+=====================================
+
+Daily Events:
+-------------
+(No events)
+
+Town Status:
+------------
+Broad_Larcot p:946 rs:0 rd:0 gs:3492 gt:0
+Hook_Gilmoor p:204 rs:0 rd:0 gs:816 gt:0
+Royal_Whithurst p:731 rs:0 rd:0 gs:2924 gt:0
+Creech_Sopcastle p:477 rs:0 rd:0 gs:1908 gt:0
+
+Network Summary:
+-------------
+Total Goods Transported Today: 0
+

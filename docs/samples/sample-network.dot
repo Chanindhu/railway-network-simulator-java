@@ -1,0 +1,12 @@
+graph Towns {
+    Broad_Larcot
+    Hook_Gilmoor
+    Royal_Whithurst
+    Creech_Sopcastle
+
+    Royal_Whithurst -- Creech_Sopcastle [style="dashed"]
+    Hook_Gilmoor -- Royal_Whithurst [style="dashed"]
+    Royal_Whithurst -- Broad_Larcot [style="dashed"]
+    Broad_Larcot -- Hook_Gilmoor [style="dashed"]
+    Creech_Sopcastle -- Broad_Larcot [style="dashed"]
+}

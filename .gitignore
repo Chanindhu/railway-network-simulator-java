@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+
+# Java compiled output
+bin/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime output
+logs/
+*.log
+simulation.log
+simoutput.dot
+simoutput.pdf
+
+# Archives
+*.zip
+*.tar
+*.gz
