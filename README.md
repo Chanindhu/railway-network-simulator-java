@@ -4,6 +4,12 @@ A Java command-line simulation of a railway network where towns are founded, pop
 
 The project focuses on object-oriented design and maintainable simulation architecture. It uses managers, factories, observers, state objects, generics, logging, and generated Graphviz output to model a changing railway network.
 
+## Reviewer Quick Scan
+
+- **What it demonstrates:** object-oriented simulation design, Observer and State patterns, manager/factory separation, logging, and Graphviz output.
+- **Best files to inspect first:** [`docs/design-notes.md`](docs/design-notes.md), [`docs/diagrams/class-diagram.png`](docs/diagrams/class-diagram.png), and [`src/main/java/edu/curtin/app/`](src/main/java/edu/curtin/app/).
+- **How to verify it:** run `./gradlew run`, inspect the console output, and convert `simoutput.dot` with Graphviz if desired.
+
 ## Features
 
 - Simulates day-by-day railway network activity
@@ -27,14 +33,14 @@ The project focuses on object-oriented design and maintainable simulation archit
 
 ```text
 src/main/java/edu/curtin/app/
-├── core/        # Simulation loop and input provider abstraction
-├── domain/      # Town, railway link, and railway state models
-├── factory/     # Factory interfaces and default implementations
-├── logger/      # Logging abstraction and file logger
-├── manager/     # Town, railway, and goods transport managers
-├── messages/    # Generic simulation message models
-├── observer/    # Observer interfaces and status reporting
-└── App.java     # Application entry point and dependency wiring
+‚îú‚îÄ‚îÄ core/        # Simulation loop and input provider abstraction
+‚îú‚îÄ‚îÄ domain/      # Town, railway link, and railway state models
+‚îú‚îÄ‚îÄ factory/     # Factory interfaces and default implementations
+‚îú‚îÄ‚îÄ logger/      # Logging abstraction and file logger
+‚îú‚îÄ‚îÄ manager/     # Town, railway, and goods transport managers
+‚îú‚îÄ‚îÄ messages/    # Generic simulation message models
+‚îú‚îÄ‚îÄ observer/    # Observer interfaces and status reporting
+‚îî‚îÄ‚îÄ App.java     # Application entry point and dependency wiring
 ```
 
 ## Design Overview
@@ -56,6 +62,18 @@ The application is split into small packages with separate responsibilities:
 ### Railway State Diagram
 
 ![State diagram](docs/diagrams/state-diagram.png)
+
+## Proof and Review Evidence
+
+| Evidence | Where to inspect it | What it proves |
+|---|---|---|
+| Design notes | [`docs/design-notes.md`](docs/design-notes.md) | The architectural patterns and package responsibilities are documented. |
+| Class diagram | [`docs/diagrams/class-diagram.png`](docs/diagrams/class-diagram.png) | The object model is represented visually for review. |
+| State diagram | [`docs/diagrams/state-diagram.png`](docs/diagrams/state-diagram.png) | The railway state transitions are documented separately from implementation. |
+| Sample console output | [`docs/samples/sample-console-output.txt`](docs/samples/sample-console-output.txt) | Reviewers can inspect a captured run without executing the app first. |
+| Sample Graphviz output | [`docs/samples/sample-network.dot`](docs/samples/sample-network.dot) | The repo includes concrete generated network output. |
+| Source packages | [`src/main/java/edu/curtin/app/`](src/main/java/edu/curtin/app/) | Managers, observers, factories, states, and logging code are inspectable. |
+| Static analysis config | [`oose-pmd-rules.xml`](oose-pmd-rules.xml) | The project includes configured static-analysis expectations. |
 
 ## Build
 
