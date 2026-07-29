@@ -32,15 +32,30 @@ The project focuses on object-oriented design and maintainable simulation archit
 ## Project Structure
 
 ```text
-src/main/java/edu/curtin/app/
-‚îú‚îÄ‚îÄ core/        # Simulation loop and input provider abstraction
-‚îú‚îÄ‚îÄ domain/      # Town, railway link, and railway state models
-‚îú‚îÄ‚îÄ factory/     # Factory interfaces and default implementations
-‚îú‚îÄ‚îÄ logger/      # Logging abstraction and file logger
-‚îú‚îÄ‚îÄ manager/     # Town, railway, and goods transport managers
-‚îú‚îÄ‚îÄ messages/    # Generic simulation message models
-‚îú‚îÄ‚îÄ observer/    # Observer interfaces and status reporting
-‚îî‚îÄ‚îÄ App.java     # Application entry point and dependency wiring
+railway-network-simulator-java/
+|-- src/main/java/edu/curtin/app/
+|   |-- App.java                              # Application entry point and dependency wiring
+|   |-- core/                                 # Simulation loop and input provider abstraction
+|   |-- domain/                               # Town, railway link, and railway state models
+|   |-- factory/                              # Factory interfaces and default implementations
+|   |-- logger/                               # Logging abstraction and file logger
+|   |-- manager/                              # Town, railway, and goods transport managers
+|   |-- messages/                             # Generic simulation message models
+|   `-- observer/                             # Observer interfaces and status reporting
+|-- docs/
+|   |-- design-notes.md
+|   |-- diagrams/
+|   |   |-- class-diagram.png
+|   |   `-- state-diagram.png
+|   `-- samples/
+|       |-- sample-console-output.txt
+|       `-- sample-network.dot
+|-- build.gradle
+|-- settings.gradle
+|-- oose-pmd-rules.xml
+|-- logging.properties
+|-- gradlew / gradlew.bat
+`-- README.md
 ```
 
 ## Design Overview
